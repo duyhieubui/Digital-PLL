@@ -9,7 +9,7 @@ module tb_ring_osc_transient;
     realtime t_start, t_end;
     real freq, T;
 
-    ring_osc dut (reset, trim, clockp);
+    ring_osc2x13 dut (reset, trim, clockp);
 
     initial begin
         $dumpfile("transient_wave.vcd");

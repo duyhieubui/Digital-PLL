@@ -18,7 +18,7 @@
 //
 // NOTE:  This netlist cannot be simulated correctly due to lack
 // of accurate timing in the digital cell verilog models.
-
+`timescale 1ns/1ps
 module delay_stage(in, trim, out);
     input in;
     input [1:0] trim;
