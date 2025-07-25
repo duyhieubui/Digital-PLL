@@ -24,6 +24,7 @@ git clone https://github.com/duyhieubui/Digital-PLL
 
 ``` bash
 cd Digital-PLL
+git submodule update --init --recursive
 source env.sh
 
 ```
@@ -36,7 +37,6 @@ make
 ```
 
 - Run the synthesis:
-
 ``` bash
 cd $PROJECT_ROOT/openroad
 make
